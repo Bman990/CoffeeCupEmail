@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="x-apple-disable-message-reformatting">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            -webkit-text-size-adjust: none;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .header {
+            background-color: #000000; /* Black background */
+            color: #ffffff; /* White text */
+            text-align: center;
+            padding: 20px 0;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 36px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+        .image-container {
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+        .image-container img {
+            width: 100%;
+            height: auto;
+            border: 0;
+            display: block;
+        }
+        .content {
+            padding: 20px;
+            text-align: center; /* Center-aligns text in the content section */
+        }
+        .content h2 {
+            margin-top: 0;
+            font-size: 28px;
+            color: #333333;
+        }
+        .content p {
+            margin: 0;
+            padding: 0;
+            line-height: 1.5;
+            color: #666666;
+        }
+        .content .centered-text {
+            text-align: center; /* Center-aligns this specific text */
+            font-size: 18px; /* Optional: Adjust font size for better visibility */
+            margin: 20px 0; /* Optional: Adjust margin for spacing */
+        }
+        .content ul {
+            margin: 20px auto;
+            padding: 0;
+            list-style-type: disc;
+            padding-left: 20px;
+            color: #666666;
+            text-align: left; /* Aligns list items to the left */
+            max-width: 500px; /* Limits the width of the list for better readability */
+        }
+        .footer {
+            background-color: #000000; /* Black background */
+            color: #ffffff; /* White text */
+            text-align: center;
+            padding: 10px 0;
+            margin: 0;
+        }
+        .footer p {
+            margin: 0;
+            padding: 0;
+        }
+        .footer a {
+            color: #1a73e8; /* Blue color for links */
+            text-decoration: none;
+        }
+        @media only screen and (max-width: 600px) {
+            .container {
+                width: 100% !important;
+            }
+            .header h1 {
+                font-size: 30px !important;
+            }
+            .footer {
+                padding: 20px !important;
+            }
+        }
+        /* Outlook-specific styles */
+        .mso-table {
+            border-collapse: collapse;
+        }
+        /* Ensure links are visible in Outlook */
+        .mso-footer a {
+            color: #1a73e8 !important;
+            text-decoration: none !important;
+        }
+    </style>
+</head>
+<body>
+    <!--[if mso]>
+    <style>
+        .container {
+            width: 100% !important;
+            max-width: 600px !important;
+            background-color: #ffffff !important;
+        }
+        .content {
+            padding: 20px !important;
+            text-align: center !important;
+        }
+        .header, .footer {
+            width: 100% !important;
+            text-align: center !important;
+        }
+        .footer p {
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+        .footer a {
+            color: #1a73e8 !important; /* Ensures blue color for links in Outlook */
+            text-decoration: none !important;
+        }
+        .footer {
+            mso-line-height-rule: exactly; /* Fixes spacing issues in Outlook */
+        }
+    </style>
+    <![endif]-->
+    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="border-collapse: collapse;">
+        <tr>
+            <td>
+                <div class="container">
+                    <!-- Header Section -->
+                    <div class="header">
+                        <h1>Paper Cup Coffees</h1>
+                    </div>
+                    <!-- Image Section -->
+                    <div class="image-container">
+                        <img src="coffeCup1Edited.jpg" alt="Coffee Cup">
+                    </div>
+                    <!-- Main Content Section -->
+                    <div class="content">
+                        <h2>Introducing Our Sleek and Sustainable Coffee Cups</h2>
+                        <p>At Paper Cup Coffees, we are committed to combining style with sustainability. Our paper coffee cups feature a sleek, minimalistic design that not only looks great but also supports eco-friendly practices. Here’s why our cups are the perfect choice for your needs:</p>
+                        <ul>
+                            <li><strong>Eco-Friendly:</strong> Made from 100% recyclable paper, reducing environmental impact.</li>
+                            <li><strong>Minimal Design:</strong> Modern, clean look that complements any setting.</li>
+                            <li><strong>Versatile Use:</strong> Ideal for holding coffee, tea, or any beverage of your choice.</li>
+                            <li><strong>Insulated:</strong> Designed to keep your drinks hot while ensuring comfortable handling.</li>
+                            <li><strong>Customizable:</strong> Available in various sizes and can be branded with your logo.</li>
+                        </ul>
+                        <p class="centered-text">Choose our paper coffee cups for a practical, stylish, and sustainable solution for your beverage needs.</p>
+                    </div>
+                    <!-- Additional Image -->
+                    <div class="image-container">
+                        <a href="#"><img src="coffeCup2Edited.jpg" alt="Coffee Cup"></a>
+                    </div>
+                    <!-- Footer Section -->
+                    <div class="footer">
+                        <p>&copy; 2024 Paper Cup Coffees. All rights reserved.</p>
+                        <p>
+                            <a href="https://example.com/unsubscribe" class="footer-link">Unsubscribe</a> |
+                            <a href="https://example.com/privacy-policy" class="footer-link">Privacy Policy</a>
+                        </p>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
